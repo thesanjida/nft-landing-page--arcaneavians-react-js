@@ -1,0 +1,36 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.image_slider {}
+
+.slick-next {
+    background: transparent;
+    right: -40px;
+}
+
+.slick-prev {
+    background: transparent;
+    left: -20px;
+}
+
+.slick-prev:before {
+    content: url(../../asset/svg_icon/arrow.svg);
+}
+
+
+.slick-next:before {
+    content: url(../../asset/svg_icon/arrow.svg);
+
+}
+
+
+.image_slider__container {
+    background-color: black;
+    padding: 0 20px;
+}
+
+.image_slider__image {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}

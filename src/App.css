@@ -1,0 +1,26 @@
+.space {
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.slider {
+    padding: 200px 0 100px 0;
+    background-color: black;
+    text-align: center;
+}
+
+.slider>h1 {
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+::selection {
+    background-color: rgb(141 67 239)
+}
